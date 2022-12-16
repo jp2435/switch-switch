@@ -2,27 +2,22 @@
     margin: 0;
     padding: 0;
 }
-#ligth,
+.ligth,
 :root{
     --bg-color: white;
     --text-color: #121214;
 }
-#dark,
+.dark,
 :root:has(#dark:checked){
     --bg-color: #121214;
     --text-color: white;
 }
-#dark,
-:root:has(#dark:checked){
-    --bg-color: #121214;
-    --text-color: white;
-}
-#blue,
+.blue,
 :root:has(#blue:checked){
     --bg-color: #d6d6ff;
     --text-color: rgb(1,79,121);
 }
-#green,
+.green,
 :root:has(#green:checked){
     --bg-color: #e8fff5;
     --text-color: rgb(0,85,41);
